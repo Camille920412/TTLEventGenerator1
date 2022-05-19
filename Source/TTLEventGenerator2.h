@@ -7,14 +7,14 @@
 //namespace must be an unique name for your plugin
 namespace ProcessorPluginSpace
 {
-	class ProcessorPlugin : public GenericProcessor
+	class TTLEventGenerator2 : public GenericProcessor
 	{
 	public:
 		/** The class constructor, used to initialize any members. */
-		ProcessorPlugin();
+		TTLEventGenerator2();
 
 		/** The class destructor, used to deallocate memory */
-		~ProcessorPlugin();
+		~TTLEventGenerator2();
 
 		/** Indicates if the processor has a custom editor. Defaults to false */
 		//bool hasEditor() const { return true; }
