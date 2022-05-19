@@ -1,19 +1,19 @@
-#include "ProcessorPlugin.h"
+#include "TTLEventGenerator2.h"
 
-using namespace ProcessorPluginSpace;
+using namespace TTLEventGenerator2Space;
 
 //Change all names for the relevant ones, including "Processor Name"
-ProcessorPlugin::ProcessorPlugin() : GenericProcessor("Processor Name")
+TTLEventGenerator2::TTLEventGenerator2() : GenericProcessor("Processor Name")
 {
 
 }
 
-ProcessorPlugin::~ProcessorPlugin()
+TTLEventGenerator2::~TTLEventGenerator2()
 {
 
 }
 
-void ProcessorPlugin::process(AudioSampleBuffer& buffer)
+void TTLEventGenerator2::process(AudioSampleBuffer& buffer)
 {
 	/** 
 	If the processor needs to handle events, this method must be called onyl once per process call
